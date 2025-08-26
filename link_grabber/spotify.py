@@ -3,6 +3,7 @@
 import requests
 from os import getenv
 
+
 def authenticate():
     """
     Authenticate with Spotify API using client credentials flow.
