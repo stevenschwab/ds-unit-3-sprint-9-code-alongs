@@ -63,7 +63,7 @@ def get_album(album_id):
     # check response status
     if response.status_code != 200:
         raise Exception(f'Get album failed: {response.json()}')
-    
+
     # convert the response to JSON
     response_data = response.json()
     return response_data
@@ -90,7 +90,7 @@ def get_track(track_id):
     # check response status
     if response.status_code != 200:
         raise Exception(f'Get track failed: {response.json()}')
-    
+
     # convert the response to JSON
     response_data = response.json()
     return response_data
